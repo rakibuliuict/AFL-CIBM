@@ -1,0 +1,5 @@
+# loss = FocalLoss(include_background=True, to_onehot_y=True) 
+# loss= TverskyLoss(include_background=True, to_onehot_y=True,sigmoid=True)
+# loss= DiceLoss(to_onehot_y=True, sigmoid=True, squared_pred=True, reduction='mean')
+# loss=DiceCELoss(include_background=True, to_onehot_y=True, sigmoid=False, softmax=True, squared_pred=False, jaccard=False, reduction='mean')
+# loss=DiceFocalLoss(include_background=True, to_onehot_y=True, sigmoid=True, softmax=False, other_act=None, squared_pred=False,reduction='mean')
